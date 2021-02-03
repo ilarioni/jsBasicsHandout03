@@ -13,3 +13,28 @@ while (myNumber != Infinity) {
 txt = txt + myNumber;
 console.log(txt);
 
+// Number methods and properties
+var a = 123;
+var b = a.toString();
+console.log(b); 
+
+var aa = 9.656;
+var bb = aa.toFixed(0);
+var c = aa.toFixed(2);
+var cc = aa.toFixed(4);
+console.log(bb);
+console.log(c);
+console.log(cc);
+
+console.log(Number(true));
+console.log(Number(false));
+console.log(Number("10"));
+console.log(Number("10.33"));
+console.log(Number("10,33"));
+
+console.log(parseInt("9"));
+console.log(parseInt("9.33"));
+console.log(parseInt("9 11 13"));
+console.log(parseInt("9 years"));
+console.log(parseInt(" years 9"));
+
