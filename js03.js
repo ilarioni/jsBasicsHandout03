@@ -38,3 +38,10 @@ console.log(parseInt("9 11 13"));
 console.log(parseInt("9 years"));
 console.log(parseInt(" years 9"));
 
+// Arrays
+var cars = ["Saab", "Volvo", "BMW"];
+console.log(cars);
+console.log(cars[2]);
+cars[1] = "Opel";
+console.log(cars);
+console.log(cars.length); 
