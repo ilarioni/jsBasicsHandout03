@@ -45,3 +45,18 @@ console.log(cars[2]);
 cars[1] = "Opel";
 console.log(cars);
 console.log(cars.length); 
+
+// accessing first and last elements of Array
+console.log(cars[0]);
+console.log(cars[cars.length - 1]);
+
+// Looping Array Elements
+var fruits, text, fLen, i;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+fLen = fruits.length;
+
+text = "";
+for (i = 0; i < fLen; i++) {
+    text += fruits[i] + " " ;
+}
+console.log(text);
